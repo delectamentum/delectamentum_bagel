@@ -16,27 +16,10 @@ class Window():
         self.y = int(y)
         self.x = int(x)
         self.isVisible = isVisible
-        self.isSelected = isSelected
         self.win = newwin(ly, lx, y, x)
         self.panel = new_panel(self.win)
-        self.select(isSelected)
-        self.visible(isVisible)
         mvwaddstr(self.win, 1, 1, self.name)
 
-    def select(self, isSelected):
-        self.isSelected = isSelected
-        if self.isSelected:
-            wborder(self.win, 32, 32, 32, 32, 0, 0, 0, 0)
-        else:
-            box(self.win)
-
-    def visible(self, isVisible):
-        if isVisible:
-            show_panel(self.panel)
-            self.isVisible = True
-        else:
-            hide_panel(self.panel)
-            self.isVisible = False
 
 def a():
     while 1:
