@@ -204,7 +204,7 @@ while 1:
                     + str(allwin[i].lx) + '\nposition y: ' \
                     + str(allwin[i].y) + '\nposition x: ' \
                     + str(allwin[i].x) + '\nvisible: ' \
-                    + str(allwin[i].visible) + '\n}\n'
+                    + str(allwin[i].isVisible) + '\n}\n'
         save.write(data)
         save.close()
 
