@@ -46,7 +46,7 @@ t.start()
 
 file = open('name').readlines()
 windows = []
-window = {'name': 'name', 'lenght_x' : 0, 'lenght_y' : 0, 'position_y': 0, 'position_x': 0, 'visible': 'no'}
+window = {'name': 'name', 'length_x' : 0, 'length_y' : 0, 'position_y': 0, 'position_x': 0, 'visible': 'no'}
 find = 0
 for row in range(len(file)):
     if find == 0:
@@ -61,10 +61,10 @@ for row in range(len(file)):
         data = file[row].split(':')
         #print(data)
         if data[0] != '}\n':
-            if data[0] == 'lenght_y':
-                window['lenght_y'] = int(data[1][1:])
-            elif data[0] == 'lenght_x':
-                window['lenght_x'] = int(data[1][1:])
+            if data[0] == 'length_y':
+                window['length_y'] = int(data[1][1:])
+            elif data[0] == 'length_x':
+                window['length_x'] = int(data[1][1:])
             elif data[0] == 'position_y':
                 window['position_y'] = int(data[1][1:])
             elif data[0] == 'position_x':
@@ -78,7 +78,7 @@ for row in range(len(file)):
             windows.append(window.copy())
 allwin = []
 for window in windows:
-    allwin.append(Window(window['name'],window['lenght_y'],window['lenght_x'],window['position_y'],window['position_x'],isSelected=False))
+    allwin.append(Window(window['name'],window['length_y'],window['length_x'],window['position_y'],window['position_x'],isSelected=False))
 
 update_panels()
 doupdate()

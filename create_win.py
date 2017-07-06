@@ -199,8 +199,8 @@ while 1:
         name = 'name'
         save = open(name, 'w')
         for i in range(len(allwin)):
-            data += str(allwin[i].name) + '{\nlenght_y: ' \
-                    + str(allwin[i].ly) + '\nlenght_x: ' \
+            data += str(allwin[i].name) + '{\nlength_y: ' \
+                    + str(allwin[i].ly) + '\nlength_x: ' \
                     + str(allwin[i].lx) + '\nposition_y: ' \
                     + str(allwin[i].y) + '\nposition_x: ' \
                     + str(allwin[i].x) + '\nvisible: ' \
