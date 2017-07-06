@@ -194,7 +194,7 @@ while 1:
 
 
 
-    if key == 10:
+    if key == 10: #saving
         data = ''
         name = 'name'
         save = open(name, 'w')
