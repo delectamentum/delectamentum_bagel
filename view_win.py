@@ -18,7 +18,9 @@ class Window():
         self.isVisible = isVisible
         self.win = newwin(ly, lx, y, x)
         self.panel = new_panel(self.win)
+        box(self.win)
         mvwaddstr(self.win, 1, 1, self.name)
+
 
 
 def a():
