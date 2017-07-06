@@ -1,83 +1,83 @@
 win0{
-lenght_y: 25
-lenght_x: 80
+length_y: 25
+length_x: 80
 position_y: 0
 position_x: 0
 visible: True
 }
 win1{
-lenght_y: 23
-lenght_x: 78
+length_y: 23
+length_x: 78
 position_y: 1
 position_x: 1
 visible: True
 }
 win2{
-lenght_y: 21
-lenght_x: 76
+length_y: 21
+length_x: 76
 position_y: 2
 position_x: 2
 visible: True
 }
 win3{
-lenght_y: 19
-lenght_x: 74
+length_y: 19
+length_x: 74
 position_y: 3
 position_x: 3
 visible: True
 }
 win4{
-lenght_y: 17
-lenght_x: 72
+length_y: 17
+length_x: 72
 position_y: 4
 position_x: 4
 visible: True
 }
 win5{
-lenght_y: 15
-lenght_x: 70
+length_y: 15
+length_x: 70
 position_y: 5
 position_x: 5
 visible: True
 }
 win6{
-lenght_y: 13
-lenght_x: 68
+length_y: 13
+length_x: 68
 position_y: 6
 position_x: 6
 visible: True
 }
 win7{
-lenght_y: 11
-lenght_x: 66
+length_y: 11
+length_x: 66
 position_y: 7
 position_x: 7
 visible: True
 }
 win8{
-lenght_y: 9
-lenght_x: 64
+length_y: 9
+length_x: 64
 position_y: 8
 position_x: 8
 visible: True
 }
 win9{
-lenght_y: 7
-lenght_x: 62
+length_y: 7
+length_x: 62
 position_y: 9
 position_x: 9
 visible: True
 }
 win10{
-lenght_y: 5
-lenght_x: 60
+length_y: 5
+length_x: 60
 position_y: 10
 position_x: 10
 visible: True
 }
 win11{
-lenght_y: 3
-lenght_x: 58
+length_y: 3
+length_x: 58
 position_y: 11
 position_x: 11
 visible: True
